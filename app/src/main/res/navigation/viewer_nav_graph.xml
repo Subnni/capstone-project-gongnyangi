@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewer_nav_graph"
+    app:startDestination="@id/ViewTextbookFragment">
+
+
+    <fragment
+        android:id="@+id/ViewTextbookFragment"
+        android:name="com.example.gongnyangi.ViewTextbookFragment">
+    </fragment>
+    <fragment
+        android:id="@+id/ViewWorkbookFragment"
+        android:name="com.example.gongnyangi.ViewWorkbookFragment">
+    </fragment>
+</navigation>

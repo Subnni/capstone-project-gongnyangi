@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEEF8"
+    android:orientation="vertical">
+
+    <!--상단 헤더-->
+    <LinearLayout
+        android:id="@+id/rf2axwdzas1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="27dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/r4pz5gb23z1c"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/r76977vrn6br"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/title"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/rjgzwe5n2ixn"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="6dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/coin_icon"  />
+
+        <TextView
+            android:id="@+id/rug859f2yck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,039"
+            android:textColor="#3E4650"
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/gotoNoticeImageView"
+            android:layout_width="19dp"
+            android:layout_height="22dp"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/bell_with_no_notice_icon" />
+
+        <ImageView
+            android:id="@+id/gotoMyPageImageView"
+            android:layout_width="19dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/setting_icon"/>
+    </LinearLayout>
+
+    <!--콘텐츠 영역-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rf2axwdzas1">
+
+        <!--스크롤 영역-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="19dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rpqn3jwdkou"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/rmzedfhbk98b_rl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="@drawable/home_bubble_image"
+                            android:paddingHorizontal="26dp"
+                            android:paddingVertical="22dp">
+
+                            <TextView
+                                android:id="@+id/rg1wgm5c511o"
+                                android:layout_width="204dp"
+                                android:layout_height="wrap_content"
+                                android:text="여섯글자이름 냥이와\n   함께 공부한지 \n         어느덧 3894일 턳"
+                                android:textColor="#458DF1"
+                                android:textSize="21sp" />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/nynag_icon"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/rl6zi4us2g8o"
+                            android:layout_width="66dp"
+                            android:layout_height="83dp"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/temp_image" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r3pt4kljmp85"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/home_todo_outer_box_image"
+                    android:elevation="6dp"
+                    android:orientation="vertical"
+                    android:paddingVertical="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/r8gb9rmatwci"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="19dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/rlwj2dt3nmi"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="13dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/rdxodjwdshfh2e2e"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:scaleType="fitXY"
+                                    android:background="@drawable/nynag_icon" />
+                                <TextView
+                                    android:id="@+id/rowry2xcunf7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="오늘의 할 일"
+                                    android:textColor="#3E4650"
+                                    android:textSize="22sp" />
+
+                                <ImageView
+                                    android:id="@+id/rdxodjwdshfh"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:scaleType="fitXY"
+                                    android:background="@drawable/add_btn_image" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/rl3p8nvuiuo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/r9ip30gcfldg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/r65k3lkk8lbn"
+                                        android:layout_width="11dp"
+                                        android:layout_height="18dp"
+                                        android:layout_marginEnd="26dp"
+                                        android:scaleType="fitXY"
+                                        android:background="@drawable/calendar_left_arrow_icon" />
+
+                                    <TextView
+                                        android:id="@+id/rz0boez8tf3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="35dp"
+                                        android:text="2026.01.15(목)"
+                                        android:textColor="#458DF1"
+                                        android:textSize="15sp" />
+
+                                    <ImageView
+                                        android:id="@+id/reksc4rtz90w"
+                                        android:layout_width="11dp"
+                                        android:layout_height="18dp"
+                                        android:scaleType="fitXY"
+                                        android:background="@drawable/calendar_right_arrow_icon" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rmy2gvefajd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="8dp"
+                        android:background="@drawable/home_todo_inner_box_image"
+                        android:elevation="4dp"
+                        android:orientation="vertical"
+                        android:paddingVertical="26dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/checkbox_checked_icon"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="일이삼가오육칠발구십"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/checkbox_checked_icon"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="일이삼가오육칠발구십"/>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rqaimk8zl5hg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="36dp"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/home_bookcase_background_image"
+                        android:orientation="vertical"
+                        android:paddingVertical="18dp">
+
+                        <LinearLayout
+                            android:id="@+id/rgbtpl687uuc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="26dp"
+                            android:layout_marginBottom="33dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/rjgmbyp7g9c"
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+                                android:layout_marginEnd="7dp"
+                                android:scaleType="fitXY"
+                                android:src="@android:drawable/star_big_on" />
+
+                            <TextView
+                                android:id="@+id/r6jy7hwebw"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="내 책장"
+                                android:textColor="#3E4650"
+                                android:textSize="22sp" />
+
+                            <ImageButton
+                                android:id="@+id/gotoBookcaseImageButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/goto_bookcase_btn_image"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:paddingHorizontal="15dp"
+                                android:paddingVertical="12dp">
+
+                            </ImageButton>
+                        </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+                            </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

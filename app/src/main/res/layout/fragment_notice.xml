@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rbzaiky5lb8n"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/main2"
+android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/r79sm8nnhyaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/gotoHomeImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:background="@drawable/back_btn_white_image"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/r58f7p0rflox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알림"
+            android:textColor="#3E4650"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <!--추후 리사이클러 뷰 사용 필요 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r79sm8nnhyaf">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--임시 카드 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/notice_box"
+                android:orientation="vertical"
+                android:paddingLeft="13dp"
+                android:paddingTop="17dp">
+
+                <TextView
+                    android:id="@+id/rv1336qikde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:text="2026.03.22.  17:18:03\n"
+                    android:textColor="#8096AE"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cancel_btn_image" />
+
+                <TextView
+                    android:id="@+id/rusv2irojzg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="오늘의 문제를 복습해보세요! "
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/rusv2irojzg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="29dp"
+                    android:text="복습을 완료하면 10000000포인트 드려요! "
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+            <!--임시 카드 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/notice_box_white"
+                android:orientation="vertical"
+                android:paddingLeft="13dp"
+                android:paddingTop="17dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:text="2026.03.22.  17:18:03\n"
+                    android:textColor="#8096AE"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cancel_btn_image" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="반갑습니다! "
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="29dp"
+                    android:text="그냥 10000000포인트 드려요! "
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="29dp"
+                    android:text="+1000 "
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

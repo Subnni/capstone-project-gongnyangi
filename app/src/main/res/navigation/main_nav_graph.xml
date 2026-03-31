@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/HomeFragment"> <!-- 앱 실행 시 첫 화면 -->
+
+    <!--홈-->
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.gongnyangi.HomeFragment">
+        <action
+            android:id="@+id/gotoMyPage"
+            app:destination="@id/MyPageFragment" />
+        <action
+            android:id="@+id/gotoNotice"
+            app:destination="@id/NoticeFragment" />
+        <action
+            android:id="@+id/gotoBookcase"
+            app:destination="@id/BookcaseFragment" />
+    </fragment>
+    <!--서재-->
+    <fragment
+        android:id="@+id/BookcaseFragment"
+        android:name="com.example.gongnyangi.BookcaseFragment">
+        <action
+            android:id="@+id/gotoHome"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+    <!--옷장-->
+    <!--옷장은 홈 또는 내페이지 두 곳에서 들어갈 수 있어 이동 대신 뒤로가기 처리-->
+    <fragment
+        android:id="@+id/ClosetFragment"
+        android:name="com.example.gongnyangi.ClosetFragment">
+    </fragment>
+    <!--오답노트-->
+    <fragment
+        android:id="@+id/MistakeNoteFragment"
+        android:name="com.example.gongnyangi.MistakeNoteFragment">
+        <action
+            android:id="@+id/gotoHome"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <!--홈>알림-->
+    <fragment
+        android:id="@+id/NoticeFragment"
+        android:name="com.example.gongnyangi.NoticeFragment">
+        <action
+            android:id="@+id/gotoHome"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <!--홈>내페이지-->
+    <fragment
+        android:id="@+id/MyPageFragment"
+        android:name="com.example.gongnyangi.MyPageFragment">
+        <action
+            android:id="@+id/gotoHome"
+            app:destination="@id/HomeFragment" />
+        <action
+            android:id="@+id/gotoMyPageModify"
+            app:destination="@id/MyPageModifyFragment" />
+    </fragment>
+
+    <!--홈>내페이지>수정-->
+    <fragment
+        android:id="@+id/MyPageModifyFragment"
+        android:name="com.example.gongnyangi.MyPageModifyFragment">
+        <action
+            android:id="@+id/gotoMyPageDeleteAccount"
+            app:destination="@id/MyPageDeleteAccountFragment" />
+        <action
+            android:id="@+id/gotoMyPage"
+            app:destination="@id/MyPageFragment" />
+    </fragment>
+
+    <!--홈>내페이지>수정>계정삭제-->
+    <fragment
+        android:id="@+id/MyPageDeleteAccountFragment"
+        android:name="com.example.gongnyangi.MyPageDeleteAccountFragment" >
+        <action
+            android:id="@+id/gotoMyPageModify"
+            app:destination="@id/MyPageModifyFragment" />
+    </fragment>
+
+
+</navigation>
