@@ -31,6 +31,22 @@ class ViewWorkbookFragment : Fragment() {
             intent.putExtra("targetFragment", "Bookcase")
             startActivity(intent)
         }
+
+
+        //리사이클러뷰
+        val problemList = mutableListOf<String>()
+        for (i in 1..10) { //문제 10개 생성
+            problemList.add(i.toString())
+        }
+        val adapter = WorkBookProblemAdaptor(problemList)
+        val recyclerView = view.findViewById<androidx.recyclerview.widget.RecyclerView>(R.id.problemButtonRecyclerView)
+        recyclerView.adapter = adapter
+
+        recyclerView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(
+            requireContext(),
+            androidx.recyclerview.widget.LinearLayoutManager.HORIZONTAL,
+            false
+        )
     }
 
 }
