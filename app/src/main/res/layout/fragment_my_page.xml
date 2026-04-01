@@ -223,7 +223,7 @@
                             android:id="@+id/rtqdtn1b0yp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="간식 점수"
+                            android:text="얻은 포인트"
                             android:textColor="#3E4650"
                             android:textSize="13sp" />
                     </LinearLayout>
